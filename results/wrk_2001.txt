@@ -1,0 +1,14 @@
+Running 30s test @ http://136.64.123.205
+  8 threads and 2001 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.35s   356.39ms   1.92s    50.48%
+    Req/Sec    27.49     27.80   212.00     88.51%
+  Latency Distribution
+     50%    1.44s 
+     75%    1.63s 
+     90%    1.91s 
+     99%    1.92s 
+  2686 requests in 30.10s, 561.33KB read
+  Socket errors: connect 0, read 0, write 0, timeout 2581
+Requests/sec:     89.23
+Transfer/sec:     18.65KB
